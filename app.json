@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "client",
-    "slug": "client",
+    "name": "Rest Countries Explorer",
+    "slug": "rest-countries-explorer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -11,13 +11,14 @@
     "ios": {
       "supportsTablet": true
     },
+    "jsEngine": "hermes",
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.arkarsoedev.client"
+      "package": "com.arkarsoedev.restcountriesexplorer"
     },
     "web": {
       "bundler": "metro",
@@ -43,7 +44,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "4061a906-67da-47db-a878-854900721ef5"
+        "projectId": "1dc4ace6-9e3a-4ca5-9ed9-b88cc4195660"
       }
     }
   }
