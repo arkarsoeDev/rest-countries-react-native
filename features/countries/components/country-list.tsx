@@ -31,13 +31,15 @@ export const CountryList = () => {
             shadowColor: '#000',
             shadowOffset: {
               width: 0,
-              height: 2
+              height: 0
             },
             shadowOpacity: 0.25,
             shadowRadius: 3.84,
-            elevation: 5
+            elevation: 5,
+            backgroundColor: '#fff',
+            marginBottom: 16,
+            paddingHorizontal: 16
           }}
-          className='mb-4 bg-white border border-gray-300 p-4'
           placeholder="Search countries"
           onChangeText={handleSearch}
         />
